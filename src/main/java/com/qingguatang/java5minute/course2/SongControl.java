@@ -1,9 +1,10 @@
 package com.qingguatang.java5minute.course2;
 
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+
 
 @Controller
 public class SongControl {
@@ -14,7 +15,6 @@ public class SongControl {
         if(songId == null){
             songId = "1";
         }
-
         if(songId.equals("1")){
             return "course2/1.html";
         }else{

@@ -11,6 +11,5 @@ public class Java5minuteApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Java5minuteApplication.class, args);
-
 	}
 }
