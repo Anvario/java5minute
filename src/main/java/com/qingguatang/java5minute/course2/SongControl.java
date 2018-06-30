@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class SongControl {
 
-    @RequestMapping("/song")
+    @RequestMapping(value = "/song")
     public String getSong(@RequestParam(name = "id",required = false) String songId){
         //判断songId的信息
         if(songId == null){
